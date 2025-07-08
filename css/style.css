@@ -258,7 +258,7 @@ input[type='tel']:focus {
     position: relative;
 }
 
-.overly:before,
+/* .overly:before,
 .page-title:before,
 .slider:before,
 .cta:before,
@@ -273,7 +273,7 @@ input[type='tel']:focus {
     height: 100%;
     opacity: 0.5;
     background: #000;
-}
+} */
 
 .overly-2,
 .bg-counter,
@@ -282,7 +282,7 @@ input[type='tel']:focus {
     position: relative;
 }
 
-.overly-2:before,
+/* .overly-2:before,
 .bg-counter:before,
 .cta-block:before,
 .latest-blog:before {
@@ -295,7 +295,7 @@ input[type='tel']:focus {
     width: 100%;
     height: 100%;
     background: rgba(0, 0, 0, 0.8);
-}
+} */
 
 .text-color {
     color: #fdd20eff;
@@ -375,6 +375,10 @@ a:focus {
     width: 50%;
     float: left;
     position: relative;
+}
+
+.collapse {
+    justify-content: flex-end;
 }
 
 #wrapper-work ul li img {
